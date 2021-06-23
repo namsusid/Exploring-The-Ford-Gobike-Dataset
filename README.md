@@ -1,3 +1,5 @@
+# Exploring The Ford Gobike Dataset
+# by Muhammad Usman Siddiqui
 # Dataset
 I chose the Ford GoBike System Data from the list of datasets provided by Udacity, and the the bike sharing data of New York City provided on the github page linked to on the dataset options google doc. The wrangling done includes dropping all the rows with null values in the San Francisco dataset, and removing all rows with a value of 0 in the gender column of the New York data set, as a value of 0 corresponded to an unknown gender. Furthermore, all birth years below 1897 were dropped as they correspond to an age greater than 122 which is the longest recorded.
 
